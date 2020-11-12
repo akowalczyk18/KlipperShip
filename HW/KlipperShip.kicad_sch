@@ -1,0 +1,97 @@
+(kicad_sch (version 20201015) (generator eeschema)
+
+  (page 1 6)
+
+  (paper "USLedger")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 197.5104 54.102) (size 50.8 25.4508)
+    (stroke (width 0.001) (type solid) (color 132 0 132 1))
+    (fill (color 255 255 255 0.0000))
+    (uuid 3741ad6f-692f-495c-a809-89b9fd033162)
+    (property "Sheet name" "ENET_USB" (id 0) (at 197.5104 53.4661 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "ENET_USB.kicad_sch" (id 1) (at 197.5104 80.0617 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 278.7904 54.1528) (size 45.72 25.5016)
+    (stroke (width 0.001) (type solid) (color 132 0 132 1))
+    (fill (color 255 255 255 0.0000))
+    (uuid 9633a3b6-4775-4235-b66d-6e8ed5ed430f)
+    (property "Sheet name" "EXTRA_IO" (id 0) (at 278.7904 53.5169 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "EXTRA_IO.kicad_sch" (id 1) (at 278.6888 80.0617 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 50.8 101.6) (size 50.7492 24.3332)
+    (stroke (width 0.001) (type solid) (color 132 0 132 1))
+    (fill (color 255 255 255 0.0000))
+    (uuid 6e70684e-0cec-4815-84d6-7b2eb6aea402)
+    (property "Sheet name" "MCU" (id 0) (at 50.8 100.9641 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "MCU.kicad_sch" (id 1) (at 50.8 126.4421 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 45.1104 54.1528) (size 55.88 25.4)
+    (stroke (width 0.001) (type solid) (color 132 0 132 1))
+    (fill (color 255 255 255 0.0000))
+    (uuid 8a0bb9be-14fd-4f6f-8879-2098134fe300)
+    (property "Sheet name" "SOM_HS" (id 0) (at 45.1104 53.5169 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "SOM_HS.kicad_sch" (id 1) (at 45.1104 80.0617 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 126.3904 54.1528) (size 45.72 25.4)
+    (stroke (width 0.001) (type solid) (color 132 0 132 1))
+    (fill (color 255 255 255 0.0000))
+    (uuid f86bf6d3-df1c-467a-a724-12493b3873b5)
+    (property "Sheet name" "SOM_LS" (id 0) (at 126.3904 53.5169 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "SOM_LS.kicad_sch" (id 1) (at 126.3904 80.0617 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+    (path "/8a0bb9be-14fd-4f6f-8879-2098134fe300/" (page "2"))
+    (path "/6e70684e-0cec-4815-84d6-7b2eb6aea402/" (page "6"))
+    (path "/f86bf6d3-df1c-467a-a724-12493b3873b5/" (page "3"))
+    (path "/3741ad6f-692f-495c-a809-89b9fd033162/" (page "4"))
+    (path "/9633a3b6-4775-4235-b66d-6e8ed5ed430f/" (page "5"))
+  )
+
+  (symbol_instances
+    (path "/8a0bb9be-14fd-4f6f-8879-2098134fe300/a3aef312-ce1e-427a-8a50-a2c8b2477071"
+      (reference "Module?") (unit 2) (value "ComputeModule4-CM4") (footprint "CM4IO:Raspberry-Pi-4-Compute-Module")
+    )
+    (path "/6e70684e-0cec-4815-84d6-7b2eb6aea402/9243ae4a-2758-46ea-834e-825fa05c01d8"
+      (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/6e70684e-0cec-4815-84d6-7b2eb6aea402/ae6f3cf0-56d9-497f-bad9-b582cebcd612"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/6e70684e-0cec-4815-84d6-7b2eb6aea402/6cd84a2b-e395-4c25-9d73-ab140a114f08"
+      (reference "U?") (unit 1) (value "LPC1768FBD100") (footprint "Package_QFP:LQFP-100_14x14mm_P0.5mm")
+    )
+    (path "/f86bf6d3-df1c-467a-a724-12493b3873b5/d9688794-9466-4cbd-8ec3-353f2c83002b"
+      (reference "Module?") (unit 1) (value "ComputeModule4-CM4") (footprint "CM4IO:Raspberry-Pi-4-Compute-Module")
+    )
+  )
+)
