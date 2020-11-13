@@ -78,6 +78,12 @@
   )
 
   (symbol_instances
+    (path "/8a0bb9be-14fd-4f6f-8879-2098134fe300/b4ae3052-0e83-40a4-9727-78846498a598"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/8a0bb9be-14fd-4f6f-8879-2098134fe300/e0f4c789-74b0-456f-afae-517ae79c2a34"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/8a0bb9be-14fd-4f6f-8879-2098134fe300/a3aef312-ce1e-427a-8a50-a2c8b2477071"
       (reference "Module?") (unit 2) (value "ComputeModule4-CM4") (footprint "CM4IO:Raspberry-Pi-4-Compute-Module")
     )
@@ -89,6 +95,12 @@
     )
     (path "/6e70684e-0cec-4815-84d6-7b2eb6aea402/6cd84a2b-e395-4c25-9d73-ab140a114f08"
       (reference "U?") (unit 1) (value "LPC1768FBD100") (footprint "Package_QFP:LQFP-100_14x14mm_P0.5mm")
+    )
+    (path "/f86bf6d3-df1c-467a-a724-12493b3873b5/6c34df3a-176b-4587-89d3-44f5c9f8ddfc"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/f86bf6d3-df1c-467a-a724-12493b3873b5/71d110ed-893f-41c4-b7e9-c2ae5eb93ed8"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/f86bf6d3-df1c-467a-a724-12493b3873b5/d9688794-9466-4cbd-8ec3-353f2c83002b"
       (reference "Module?") (unit 1) (value "ComputeModule4-CM4") (footprint "CM4IO:Raspberry-Pi-4-Compute-Module")
