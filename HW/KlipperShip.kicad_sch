@@ -135,10 +135,16 @@
     (path "/3741ad6f-692f-495c-a809-89b9fd033162/309f609d-d575-4d4d-92a3-2f5a9e827cd5"
       (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
     )
+    (path "/3741ad6f-692f-495c-a809-89b9fd033162/3348a184-223d-4a8b-8bf5-19c20de505e2"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/3741ad6f-692f-495c-a809-89b9fd033162/34ddf00c-5a34-4883-9803-2af0559cab2b"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/3741ad6f-692f-495c-a809-89b9fd033162/785adc57-8001-4b10-b4de-c3821bb602a5"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/3741ad6f-692f-495c-a809-89b9fd033162/8577f730-b8b9-4fcc-90bf-cffacb985cde"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/3741ad6f-692f-495c-a809-89b9fd033162/86ac992b-3e6c-409c-96cc-af0ed6705ff1"
@@ -237,6 +243,9 @@
     (path "/3741ad6f-692f-495c-a809-89b9fd033162/b3c8ed38-d69f-4add-b2d0-4e9e1752e916"
       (reference "J?") (unit 1) (value "RJ45_Amphenol_RJMG1BD3B8K1ANR") (footprint "Connector_RJ:RJ45_Amphenol_RJMG1BD3B8K1ANR")
     )
+    (path "/3741ad6f-692f-495c-a809-89b9fd033162/d3721a73-3afc-4c0e-a3aa-77dd89e3f702"
+      (reference "J?") (unit 1) (value "Conn_01x11") (footprint "Connector_Card:microSD_HC_Hirose_DM3AT-SF-PEJM5")
+    )
     (path "/3741ad6f-692f-495c-a809-89b9fd033162/26804221-4480-46d9-92ee-eb03563eaf48"
       (reference "R?") (unit 1) (value "0R") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
@@ -272,6 +281,9 @@
     )
     (path "/3741ad6f-692f-495c-a809-89b9fd033162/10e70cda-72c0-455c-ada2-3b78ce9399eb"
       (reference "U?") (unit 1) (value "USB2422") (footprint "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm")
+    )
+    (path "/3741ad6f-692f-495c-a809-89b9fd033162/492367c9-75ee-4446-b4b1-d2014f00c639"
+      (reference "U?") (unit 1) (value "TPD4EUSB30") (footprint "Package_SON:USON-10_2.5x1.0mm_P0.5mm")
     )
     (path "/3741ad6f-692f-495c-a809-89b9fd033162/5820f319-e79e-4cfa-9bf4-366d8567e91e"
       (reference "U?") (unit 1) (value "TPS2052BDR") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
